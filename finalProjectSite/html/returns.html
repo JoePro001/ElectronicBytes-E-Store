@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--
+       This is my final project website for Web Desigh Tools (63982) class at ACC, 
+       summer 2023 semester. Tought by Professer Manuel Duran. My website is a 
+       ecommerce site that sells electronic equipment.
+
+       Return Form Page
+       Auther: Carl Provost
+       Date: 6/29/2023 
+
+       Filename: return.html
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ElectronicBytes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;800&display=swap" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/provostcarl_mylayout.css " rel="stylesheet" />
+    <link href="../css/provostcarl_mystyles.css" rel="stylesheet" />
+    <script src="../javascript/provostcarl_jscript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="col-1-1">
+                    <img src="../images/logo.png" alt="Logo" />
+                </div>
+                <div class="col-1-2">
+                    <nav>
+                        <button id="close">x</button>
+                        <ul>
+                            <li><a class="mainmenu" href="../index.html">Home</a></li>
+                            <li><a class="mainmenu" href="computers.html">PCs</a>
+                                <ul class="submenu">
+                                    <li><a href="tower.html">Tower</a></li>
+                                    <li><a href="laptop.html">Laptop</a></li>
+                                    <li><a href="tablet.html">Tablet</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="cell.html">Phones</a>
+                                <ul class="submenu">
+                                    <li><a href="foldablephone.html">Foldable Phone</a></li>
+                                    <li><a href="smartphone.html">Smart Phone</a></li>
+                                    <li><a href="flipphone.html">Flip Phone</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="accessories.html">Accessories</a>
+                                <ul class="submenu">
+                                    <li><a href="monitor.html">Monitor</a></li>
+                                    <li><a href="keyboard.html">Keyboard</a></li>
+                                    <li><a href="mouse.html">Mouse</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="drones.html">Drones</a>
+                                <ul class="submenu">
+                                    <li><a href="beginnerdrone.html">Beginner Drone</a></li>
+                                    <li><a href="professionaldrone.html">Professional Drone</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="contact.html">Contact</a></li>
+                        </ul>
+                        <button id="ham"><img src="../images/hamburger.svg" alt="icon"></button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="col-2-1 banner">
+        <img src="../images/banner2.png" alt="motherboard" />
+    </div>
+    <main>
+        <div class="container">
+            <div class="color">
+                <div class="formcontact">
+                    <h2>Return Form</h2>
+                    <form>
+                        <h3>Customer Information</h3>
+                        <p>_______________________________________________________</p>
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="firstname" placeholder="Your first name">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lastname" placeholder="Your last name">
+                        <label for="pnumber">Phone Number:</label>
+                        <input type="text" name="phonenumber" placeholder="(nnn)nnn-nnnn">
+                        <label for="email">E-mail Address:</label>
+                        <input type="text" name="e-mail" placeholder="Your e-mail address">
+                        <h3>Order Information</h3>
+                        <p>________________________________________________________</p>
+                        <label for="onumber">Order Number:</label>
+                        <input type="text" name="Ordernumber" placeholder="Your order number">
+                        <label for="quantity">Quantity:</label>
+                        <input name="productQuantity" type="number" value="1" step="1" min="1" max="99" />
+                        <label for="dop">Date of Purchase:</label>
+                        <input type="text" name="dateofpurchase" placeholder="Your date of purchase">
+                        <label for="item">Item:</label>
+                        <input type="text" name="item" placeholder="Your Item">
+                        <label for="subject">Subject</label>
+                        <textarea class="subject" name="subject"
+                            placeholder="An thing else you would like to add?"></textarea>
+                        <h4>Reason for Return:</h4>
+                        <label>
+                            <input type="checkbox" /> Wrong delivery
+                        </label>
+                        <label>
+                            <input type="checkbox" /> Transport damage
+                        </label>
+                        <label>
+                            <input type="checkbox" /> Wrong quantity
+                        </label>
+                        <label>
+                            <input type="checkbox" /> Defective item
+                        </label>
+                        <label>
+                            <input type="checkbox" /> Better price available
+                        </label>
+                        <label>
+                            <input type="checkbox" /> Other
+                        </label>
+                        <input type="button" value="Submit">
+                    </form>
+                </div>
+                <a class="rtop" href="#top">Return To Top</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &#128187; &copy; 2023, All Rights Reserved. &#128241;
+    </footer>
+</body>
+
+</html>

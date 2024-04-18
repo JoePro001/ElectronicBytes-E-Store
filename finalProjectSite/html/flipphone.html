@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--
+       This is my final project website for Web Desigh Tools (63982) class at ACC, 
+       summer 2023 semester. Tought by Professer Manuel Duran. My website is a 
+       ecommerce site that sells electronic equipment.
+
+       Flip Phone Page
+       Auther: Carl Provost
+       Date: 6/29/2023 
+
+       Filename: flipphone.html
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ElectronicBytes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;800&display=swap" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/provostcarl_mylayout.css " rel="stylesheet" />
+    <link href="../css/provostcarl_mystyles.css" rel="stylesheet" />
+    <script src="../javascript/provostcarl_jscript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="col-1-1">
+                    <img src="../images/flipphone.jpg" alt="Logo" />
+                </div>
+                <div class="col-1-2">
+                    <nav>
+                        <button id="close">x</button>
+                        <ul>
+                            <li><a class="mainmenu" href="../index.html">Home</a></li>
+                            <li><a class="mainmenu" href="computers.html">PCs</a>
+                                <ul class="submenu">
+                                    <li><a href="tower.html">Tower</a></li>
+                                    <li><a href="laptop.html">Laptop</a></li>
+                                    <li><a href="tablet.html">Tablet</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="cell.html">Phones</a>
+                                <ul class="submenu">
+                                    <li><a href="foldablephone.html">Foldable Phone</a></li>
+                                    <li><a href="smartphone.html">Smart Phone</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="accessories.html">Accessories</a>
+                                <ul class="submenu">
+                                    <li><a href="monitor.html">Monitor</a></li>
+                                    <li><a href="keyboard.html">Keyboard</a></li>
+                                    <li><a href="mouse.html">Mouse</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="drones.html">Drones</a>
+                                <ul class="submenu">
+                                    <li><a href="beginnerdrone.html">Beginner Drone</a></li>
+                                    <li><a href="professionaldrone.html">Professional Drone</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <button id="ham"><img src="../images/hamburger.svg" alt="icon"></button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="col-2-1 banner">
+        <img src="../images/banner2.png" alt="motherboard" />
+    </div>
+    <main>
+        <div class="container">
+            <div class="color">
+                <div id="flexpages">
+                    <div class="left">
+                        <img src="../images/flipphone.jpg" alt="flip phone" />
+                    </div>
+                    <div class="center">
+                        <h2>2780 Flip | Unlocked | Verizon, AT&T, T-Mobile | Blue</h2>
+
+                        <p>Functional flip design - See caller ID on the outer screen. Flip the phone closed to end
+                            calls..Other camera description:Rear
+                            Power that's ready to go - Up to 18 days of stanby time from a single charge.
+                            Everything you need to stay connected - Browse the Internet and download all your favorite
+                            apps
+                            - all on 4G.
+                            Enhanced accessibility - Bigger buttons, hearing aid compatibility and real-time text (RTT).
+                            Please confirm compatibility with your carrier before ordering. LTE/4G compatibility is
+                            dependent on your carrier and available networks in your region. This device can work with
+                            all
+                            carriers including, but not limited to: Verizon, AT&T, Boost, Cricket, H2O Wireless, Metro,
+                            Net10, Simple Mobile, T-Mobile, Tracfone.</p>
+                    </div>
+                    <div class="right">
+                        <h2>$29.99</h2>
+                        <label>Quantity</label>
+                        <input name="productQuantity" type="number" value="1" step="1" min="1" max="99" />
+                        <input type="button" value="Add to Cart" />
+                    </div>
+                </div>
+                <div class="flexreviews">
+                    <div class="leftreview">
+                        <h3>Not really USB C</h3>
+                        <p class="date">Reviewed in the United States on May 16, 2023</p>
+                        <p>The charging socket is shaped like USB C but, with all of my standard USB C chargers, it
+                            accepts
+                            power with only one orientation, not both. So, you have to plug it in, confirm that it
+                            is
+                            charging and, if it is not, turn the charging cable over. The supplied charger works in
+                            either
+                            orientation, so they understand what they have not done properly in the phone.</p>
+
+                        <p>I am buying nothing except standard USB C devies and have chargers in convenient
+                            locations
+                            around the house plus a powerpack. This phone has the problem with all of them. I refuse
+                            to
+                            use
+                            devices that don't properly support my existing chargers.</p>
+                    </div>
+                    <div class="rightreview">
+                        <h3>Good for a flip phone</h3>
+                        <p class="date">Reviewed in the United States on April 23, 2023</p>
+                        <p>I prefer a smartphone but my husband still likes to use a flip phone. However, some of
+                            the
+                            features seem more convoluted than they need to be. They offer some of the things that
+                            my
+                            phone
+                            comes with but who's going to use that tiny screen for the map? But as flip phones go
+                            the
+                            reception seems good and everything else is on point.</p>
+                    </div>
+                </div>
+                <a class="rtop" href="#top">Return To Top</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &#128187; &copy; 2023, All Rights Reserved. &#128241;
+    </footer>
+</body>
+
+</html>

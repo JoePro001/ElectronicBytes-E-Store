@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--
+       This is my final project website for Web Desigh Tools (63982) class at ACC, 
+       summer 2023 semester. Tought by Professer Manuel Duran. My website is a 
+       ecommerce site that sells electronic equipment.
+
+       Drones Main Page
+       Auther: Carl Provost
+       Date: 6/29/2023 
+
+       Filename: drones.html
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ElectronicBytes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;800&display=swap" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/provostcarl_mylayout.css " rel="stylesheet" />
+    <link href="../css/provostcarl_mystyles.css" rel="stylesheet" />
+    <script src="../javascript/provostcarl_jscript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="col-1-1">
+                    <img src="../images/logo.png" alt="Logo" />
+                </div>
+                <div class="col-1-2">
+                    <nav>
+                        <button id="close">x</button>
+                        <ul>
+                            <li><a class="mainmenu" href="../index.html">Home</a></li>
+                            <li><a class="mainmenu" href="computers.html">PCs</a>
+                                <ul class="submenu">
+                                    <li><a href="tower.html">Tower</a></li>
+                                    <li><a href="laptop.html">Laptop</a></li>
+                                    <li><a href="tablet.html">Tablet</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="cell.html">Phones</a>
+                                <ul class="submenu">
+                                    <li><a href="foldablephone.html">Foldable Phone</a></li>
+                                    <li><a href="smartphone.html">Smart Phone</a></li>
+                                    <li><a href="flipphone.html">Flip Phone</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="accessories.html">Accessories</a>
+                                <ul class="submenu">
+                                    <li><a href="monitor.html">Monitor</a></li>
+                                    <li><a href="keyboard.html">Keyboard</a></li>
+                                    <li><a href="mouse.html">Mouse</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="beginnerdrone.html">Beginner Drone</a></li>
+                            <li><a class="mainmenu" href="professionaldrone.html">Professional Drone</a></li>
+                        </ul>
+                        <button id="ham"><img src="../images/hamburger.svg" alt="icon"></button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="col-2-1 banner">
+        <img src="../images/banner2.png" alt="motherboard" />
+    </div>
+    <main>
+        <div class="container">
+            <div class="color">
+                <h2>Drones</h2>
+                <p class="clickable">Pictures are clickable and will bring you to that product.</p>
+                <table class="categories">
+                    <colgroup>
+                        <col class="pictures" />
+                        <col class="title" />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><a href="beginnerdrone.html"><img src="../images/beginnerdrone.jpg"
+                                        alt="Small Drone" /></a>
+                            </td>
+                            <td class="details">Beginner Drone, 13 Minites flight time and 720P Camera</td>
+                        </tr>
+                        <tr>
+                            <td><a href="professionaldrone.html"><img src="../images/professionaldrone.jpg"
+                                        alt="Large Drone" /></a></td>
+                            <td class="details">Professional Drone, 4K Camera and 3-Axis Gimbal </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="rtop" href="#top">Return To Top</a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        &#128187; &copy; 2023, All Rights Reserved. &#128241;
+    </footer>
+</body>
+
+</html>

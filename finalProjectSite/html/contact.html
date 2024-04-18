@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--
+       This is my final project website for Web Desigh Tools (63982) class at ACC, 
+       summer 2023 semester. Tought by Professer Manuel Duran. My website is a 
+       ecommerce site that sells electronic equipment.
+
+       Contact Page
+       Auther: Carl Provost
+       Date: 6/29/2023 
+
+       Filename: contact.html
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ElectronicBytes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;800&display=swap" rel="stylesheet">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/provostcarl_mylayout.css " rel="stylesheet" />
+    <link href="../css/provostcarl_mystyles.css" rel="stylesheet" />
+    <script src="../javascript/provostcarl_jscript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="col-1-1">
+                    <img src="../images/logo.png" alt="Logo" />
+                </div>
+                <div class="col-1-2">
+                    <nav>
+                        <button id="close">x</button>
+                        <ul>
+                            <li><a class="mainmenu" href="../index.html">Home</a></li>
+                            <li><a class="mainmenu" href="computers.html">PCs</a>
+                                <ul class="submenu">
+                                    <li><a href="tower.html">Tower</a></li>
+                                    <li><a href="laptop.html">Laptop</a></li>
+                                    <li><a href="tablet.html">Tablet</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="cell.html">Phones</a>
+                                <ul class="submenu">
+                                    <li><a href="foldablephone.html">Foldable Phone</a></li>
+                                    <li><a href="smartphone.html">Smart Phone</a></li>
+                                    <li><a href="flipphone.html">Flip Phone</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="accessories.html">Accessories</a>
+                                <ul class="submenu">
+                                    <li><a href="monitor.html">Monitor</a></li>
+                                    <li><a href="keyboard.html">Keyboard</a></li>
+                                    <li><a href="mouse.html">Mouse</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="drones.html">Drones</a>
+                                <ul class="submenu">
+                                    <li><a href="beginnerdrone.html">Beginner Drone</a></li>
+                                    <li><a href="professionaldrone.html">Professional Drone</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="mainmenu" href="returns.html">Returns</a></li>
+                        </ul>
+                        <button id="ham"><img src="../images/hamburger.svg" alt="icon"></button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="col-2-1 banner">
+        <img src="../images/banner2.png" alt="motherboard" />
+    </div>
+    <main>
+        <div class="container">
+            <div class="color">
+                <div class="returnlink">
+                    <p>Do you have something that needs to be returned?
+                        Please click on return form link below.</p>
+                    <p><a href="returns.html">Return Form</a></p>
+                </div>
+                <div class="formcontact">
+                    <h2>Contact Form</h2>
+                    <form>
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="firstname" placeholder="Your first name">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lastname" placeholder="Your last name">
+                        <label for="email">E-mail Address:</label>
+                        <input type="text" name="e-mail" placeholder="Your e-mail address">
+                        <label for="region">Region:</label>
+                        <select id="regions" name="region">
+                            <option value="northamerica">North America</option>
+                            <option value="southamerica">South America</option>
+                            <option value="europe">Europe</option>
+                            <option value="asia">Asia</option>
+                            <option value="australia">Australia</option>
+                            <option value="africa">Africa</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea class="subject" name="subject" placeholder="How may we help you?"></textarea>
+                        <input type="button" value="Submit">
+                    </form>
+                </div>
+                <div class="cservice">
+                    <p>Customer Service contact #555-555-5555</p>
+                </div>
+                <iframe id="gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.297731283165!2d-97.70324195430798!3d30.402961538310837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cc04a13b8723%3A0x917faa48756bfdb2!2sAustin%20Community%20College%3A%20Northridge%20Campus!5e0!3m2!1sen!2sus!4v1688683199204!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a class="rtop" href="#top">Return To Top</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &#128187; &copy; 2023, All Rights Reserved. &#128241;
+    </footer>
+</body>
+
+</html>

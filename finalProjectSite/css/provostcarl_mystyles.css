@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+/*
+    This is my final project website for Web Desigh Tools (63982) class at ACC, 
+    summer 2023 semester. Tought by Professer Manuel Duran. My website is a 
+    ecommerce site that sells electronic equipment.
+
+    CSS styles Page
+    Auther: Carl Provost
+    Date: 6/29/2029 
+
+    Filename: provostcarl_styles.css
+*/
+
+/* Body Styles */
+body {
+    font-family: 'Noto Sans Mono', Arial, sans-serif;
+    background-color: rgba(50, 184, 236, 0.767);
+}
+
+.color {
+    background-color: white;
+}
+
+/* Main */
+.flexreviews p:first-of-type {
+    font-style: italic;
+}
+
+.leftreview {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.leftreview h3,
+.leftreview .date,
+.rightreview h3,
+.rightreview .date {
+    margin-bottom: 10px;
+}
+
+.rightreview {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.returnlink {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.returnlink>p>a {
+    font-size: 25px;
+}
+
+.returnlink>p:first-child {
+    margin-bottom: 15px;
+}
+
+.left {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.center>h2 {
+    padding: 25px auto;
+}
+
+.right>h2 {
+    padding-bottom: 15px;
+}
+
+.rtop {
+    display: block;
+    margin: 25px auto 0;
+    padding-bottom: 25px;
+}
+
+.color>h2 {
+    padding: 25px 0;
+}
+
+.clickable {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.linkRef {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ref {
+    font-size: 24px;
+}
+
+.icon {
+    padding: 30px 0 10px;
+}
+
+.icon p {
+    display: flex;
+    justify-content: center;
+}
+
+.icon p a {
+    margin: 0 5px;
+    display: block;
+}
+
+/* Banner Styles */
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+/* Navigation */
+.mainmenu {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding: 50px 25px 0;
+    color: black;
+}
+
+ul.submenu {
+    display: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: rgb(50, 184, 236);
+}
+
+a.mainmenu:hover+ul.submenu,
+ul.submenu:hover {
+    display: block;
+}
+
+/* Table Styles */
+
+table.categories tr td {
+    border: 1px solid #000;
+}
+
+.categories td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    height: 100%;
+    padding: 10px;
+}
+
+.details {
+    font-size: 50px;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.center h2 {
+    padding-bottom: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(98, 192, 98);
+}
+
+/* Form */
+.formcontact>form>label,
+.formcontact>form>input,
+.formcontact>form>select {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.formcontact>form {
+    max-width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.formcontact {
+    background-color: white;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.formcontact>h2 {
+    padding-bottom: 25px;
+}
+
+input[type=button],
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    resize: vertical;
+}
+
+input[type=button] {
+    background-color: rgb(98, 192, 98);
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+input[type=button]:hover {
+    background-color: red;
+    color: white;
+}
+
+textarea {
+    height: 200px;
+    width: 500px;
+}
+
+.cservice {
+    font-size: large;
+    margin: 25px 0px 25px 10px;
+}
+
+iframe {
+    width: 100%;
+}
+
+form>h3 {
+    padding-top: 25px;
+}
+
+form>p {
+    padding-bottom: 25px;
+}
+
+form>h4 {
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, red 15%, white 35%, white 50%, white 65%, red 85%);
+}

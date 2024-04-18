@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/*
+    This is my final project website for Web Desigh Tools (63982) class at ACC, 
+    summer 2023 semester. Tought by Professer Manuel Duran. My website is a 
+    ecommerce site that sells electronic equipment.
+
+    CSS layout Page
+    Auther: Carl Provost
+    Date: 6/29/2029 
+
+    Filename: provostcarl_layout.css
+*/
+
+
+
+
+/* Header */
+header .nav-wrapper {
+    display: flex;
+}
+
+header img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    text-align: center;
+}
+
+#ham,
+#close {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+#ham img {
+    width: 30px;
+}
+
+#close {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Banner */
+.col-2-1 {
+    width: 100%;
+    height: 200px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* main */
+.col-1-1 {
+    width: 50%;
+}
+
+.content-header {
+    max-width: 95%;
+    margin: 0 auto 20px;
+    padding-top: 20px;
+}
+
+.content-header>h1 {
+    padding-bottom: 15px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content-wrapper .card {
+    max-width: 48%;
+}
+
+#flexpages {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#flexpages>.left {
+    width: 35%;
+}
+
+#flexpages>.center {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+
+#flexpages>.right {
+    width: 15%;
+    text-align: center;
+    border-left: 1px solid;
+    padding-top: 25px;
+}
+
+.linkRef a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.files {
+    margin-bottom: 30px;
+}
+
+.linkRef h1 {
+    margin-bottom: 30px;
+}
+
+/* Review */
+.flexreviews {
+    display: flex;
+}
+
+.leftreview {
+    padding-top: 15px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.rightreview {
+    padding-top: 15px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid;
+}
+
+/* Tablet Style */
+@media screen and (max-width: 990px) {
+    #flexpages {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #flexpages {
+        flex-direction: column;
+
+    }
+
+    #flexpages>.left,
+    #flexpages>.center,
+    #flexpages>.right {
+        width: 100%;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    nav {
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    .mainmenu {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Style */
+@media screen and (max-width: 576px) {
+    .flexreviews {
+        flex-direction: column;
+    }
+
+    .leftreview {
+        width: 100%;
+    }
+
+    .rightreview {
+        width: 100%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #ham {
+        display: block;
+    }
+
+    header .nav-wrapper {
+        justify-content: space-between;
+    }
+}
